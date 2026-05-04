@@ -4,17 +4,17 @@ let featuredDrink = "Strawberry Milkshake";
 
 function addBurger() {
     const newBurger = "Flatburger";
-    burgers.push("newBurger");
+    burgers.push(newBurger);
    //  console.log(newBurger);
 }
-// addBurger()
-// console.log(burgers);
+
 
 if(true) {
     const anotherNewBurger = "Maple Bacon Burger";
-    burgers.push("anotherNewBurger");
+    burgers.push(anotherNewBurger);
 }
 
 function changeFeaturedDrink() {
     featuredDrink = "The JavaShake"
 }
+console.log(burgers);
